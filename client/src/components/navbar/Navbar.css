@@ -1,0 +1,47 @@
+nav {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0.6rem;
+}
+
+.logo {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  color: orangered;
+}
+
+.navLogo span {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: 'Dancing Script', cursive;
+  color: blue;
+}
+
+.navRight ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navRight ul li {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.navRight ul li span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
